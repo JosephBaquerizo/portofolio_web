@@ -20,7 +20,7 @@ export default function Work() {
                             </div>
                             <div className={styles.bottomContainer}>
                                 <span className={styles.parameter}>Link</span>
-                                <span><a rel="noreferrer noopener" target="_blank" href="https://graphapp-nine.vercel.app/">Click here</a></span>
+                                <span><a rel="noreferrer noopener" target="_blank" href="https://graphsv2.vercel.app/">Click here</a></span>
                             </div>
                         </div>
                     </div>
