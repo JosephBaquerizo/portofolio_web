@@ -1,0 +1,173 @@
+.work {
+    height: fit-content;
+    padding-top: 40px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content span {
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.frontendContainer {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item {
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(177, 173, 173);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottomItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.bottomContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottomItem span {
+    color: black;
+}
+
+.bottomContainer a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.parameter {
+    font-weight: 600;
+}
+
+.image1 {
+    background-image: url("/weather.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("/coffee.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url("/e-commerce.png");
+    background-position: center;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url("/pokecheck.png");
+    background-position: center;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url("/snn.png");
+    background-position: center;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:hover .opacity {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.opacity {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.description {
+    color: white;
+    font-size: 18px;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover .description {
+    display: block;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+@media screen and (max-width: 1270px) {
+    .frontendContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .item {
+        width: 250px;
+        height: 190px;
+        margin-left: 15px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .bottomContainer span {
+        font-size: 12px;
+    }
+}

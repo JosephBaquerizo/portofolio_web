@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+}
+
+.header ul li {
+    padding: 8px;
+}
+
+.header li:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.header li:hover span {
+    color: grey;
+}
+
+.header span {
+    color: white;
+}
+
+.logo {
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.logo span {
+    font-size: 18px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.icon {
+    display: none;
+}
+
+.iconSub {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+@media screen and (max-width: 560px) {
+
+    .header {
+        background-color: black;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        transform: translateX(100%);
+        transition: 0s all ease-in-out;
+    }
+
+    .content ul {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        padding-bottom: 7vh;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .icon:hover {
+        cursor: pointer;
+    }
+
+    .navbarAppear {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        transform: translateX(0%);
+        transition: 0.5s all ease-in-out;
+    }
+
+}

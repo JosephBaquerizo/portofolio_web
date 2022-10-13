@@ -1,0 +1,41 @@
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 39);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 39);
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+}
+
+.content hr {
+    width: 100%;
+}
+
+.copy {
+    margin-top: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 560px) {
+    .content {
+        font-size: 12px;
+    }
+}

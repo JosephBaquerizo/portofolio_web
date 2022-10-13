@@ -1,0 +1,113 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: url("/7V7.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightContainer {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.rightContainer span {
+    font-size: 300px;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: rgb(190, 190, 190);
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    z-index: 1;
+    margin-top: 10px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-width: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(156, 156, 156);
+}
+
+.name {
+    color: rgb(146, 5, 146);
+}
+
+@media screen and (max-width: 1220px) {
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .button {
+        font-size: 14px;
+        width: 100px;
+        padding: 6px;
+    }
+
+    .right {
+        width: 200px;
+        height: 200px;
+    }
+
+    .rightContainer span {
+        font-size: 140px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .title {
+        font-size: 24px;
+    }
+}
