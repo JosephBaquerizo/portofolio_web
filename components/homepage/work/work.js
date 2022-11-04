@@ -44,7 +44,7 @@ export default function Work() {
                     <div className={styles.item}>
                         <div className={cls(styles.image, styles.image3)}>
                             <div className={styles.opacity}>
-                                <span className={styles.description}>E-commerce site (demo) created with NextJS, useContext, strapi, auth0 and stripe. Backend deployed on heroku and frontend deployed on vercel.</span>
+                                <span className={styles.description}>E-commerce site made with Redux. MongoDB for database, Auth0 for authentication and Vercel for deployment.</span>
                             </div>
                         </div>
                         <div className={styles.bottomItem}>
@@ -54,7 +54,7 @@ export default function Work() {
                             </div>
                             <div className={styles.bottomContainer}>
                                 <span className={styles.parameter}>Link</span>
-                                <span><a rel="noreferrer noopener" target="_blank" href="https://frontend-deved.vercel.app">Click here</a></span>
+                                <span><a rel="noreferrer noopener" target="_blank" href="https://ecommerce-mongodb.vercel.app">Click here</a></span>
                             </div>
                         </div>
                     </div>
@@ -72,6 +72,23 @@ export default function Work() {
                             <div className={styles.bottomContainer}>
                                 <span className={styles.parameter}>Link</span>
                                 <span><a rel="noreferrer noopener" target="_blank" href="https://pc-chi.vercel.app">Click here</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.item}>
+                        <div className={cls(styles.image, styles.image6)}>
+                            <div className={styles.opacity}>
+                                <span className={styles.description}>Web app that allows you to search for starwars characters while seeing the rest on an pagination view.</span>
+                            </div>
+                        </div>
+                        <div className={styles.bottomItem}>
+                            <div className={styles.bottomContainer}>
+                                <span className={styles.parameter}>Project</span>
+                                <span>Star Wars Data</span>
+                            </div>
+                            <div className={styles.bottomContainer}>
+                                <span className={styles.parameter}>Link</span>
+                                <span><a rel="noreferrer noopener" target="_blank" href="https://starwars-seven-ashen.vercel.app">Click here</a></span>
                             </div>
                         </div>
                     </div>

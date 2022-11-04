@@ -93,7 +93,7 @@
 }
 
 .image3 {
-    background-image: url("/e-commerce.png");
+    background-image: url("/ecommerce-mongodb.png");
     background-position: center;
     background-position-y: 85%;
     background-repeat: no-repeat;
@@ -110,6 +110,14 @@
 
 .image5 {
     background-image: url("/snn.png");
+    background-position: center;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image6 {
+    background-image: url("/starwars.png");
     background-position: center;
     background-position-y: 85%;
     background-repeat: no-repeat;
